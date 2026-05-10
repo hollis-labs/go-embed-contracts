@@ -1,3 +1,22 @@
+# build output
 bin/
-coverage.out
 dist/
+
+# test artifacts
+coverage.out
+*.test
+*.out
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# agent / AI infra (must not appear in a public repo)
+.agentrc/
+.claude/
+agentrc.yaml
+agentrc.yml
+CLAUDE.md
+AGENTS.md
+AUDIT_RESULTS.md
