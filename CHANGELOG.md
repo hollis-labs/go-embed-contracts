@@ -1,5 +1,12 @@
 # Changelog
 
+## Repository retirement — 2026-10-09
+
+- Deprecated this standalone repository in favor of `github.com/hollis-labs/substrate/llm-core@v0.1.0`
+  ([migration guide](https://github.com/hollis-labs/substrate/blob/llm-core/v0.1.0/llm-core/embedcontracts/MIGRATION.md)).
+- Preserved existing release tags and history. This documentation change does
+  not create a new standalone release or migrate applications.
+
 All notable changes to this project will be documented in this file. The
 format is loosely based on [Keep a Changelog](https://keepachangelog.com/),
 and this project adheres to [Semantic Versioning](https://semver.org/).
